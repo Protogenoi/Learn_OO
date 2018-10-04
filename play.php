@@ -50,6 +50,10 @@ class Ship
 
 }
 
+/**
+ * @param Ship $someShip
+ */
+
 function printShipSummary($someShip)
 {
 
