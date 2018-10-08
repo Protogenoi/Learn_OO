@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="13287ce0-54ef-493e-b325-c8a3e6f4460c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battle.php" beforeDir="false" afterPath="$PROJECT_DIR$/battle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Ship.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Ship.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ShipLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ShipLoader.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,26 +26,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="2965" />
-          <entry key="txt" value="62" />
+          <entry key="php" value="3482" />
+          <entry key="txt" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="2965" />
-          <entry key="PLAIN_TEXT" value="62" />
+          <entry key="PHP" value="3482" />
+          <entry key="PLAIN_TEXT" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="1" />
-          <entry key="php" value="19" />
+          <entry key="php" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="PHP" value="19" />
+          <entry key="PHP" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -76,6 +75,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bootstrap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/BattleResult.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/ShipLoader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="1500">
+              <caret line="100" column="1" lean-forward="true" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -106,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+            <state relative-caret-position="60">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -123,6 +131,7 @@
       <find>$outcome['winning_ship']</find>
       <find>ship2_name</find>
       <find>$ship2Name</find>
+      <find>$configuration</find>
       <find>queryForShips</find>
     </findStrings>
     <replaceStrings>
@@ -141,14 +150,14 @@
       <list>
         <option value="$PROJECT_DIR$/play.php" />
         <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/bootstrap.php" />
         <option value="$PROJECT_DIR$/lib/BattleResult.php" />
         <option value="$PROJECT_DIR$/lib/BattleManager.php" />
         <option value="$PROJECT_DIR$/init_db.php" />
         <option value="$PROJECT_DIR$/lib/Ship.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/battle.php" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/lib/ShipLoader.php" />
+        <option value="$PROJECT_DIR$/bootstrap.php" />
       </list>
     </option>
   </component>
@@ -219,7 +228,7 @@
       <updated>1538651894691</updated>
       <workItem from="1538651896027" duration="10155000" />
       <workItem from="1538731749971" duration="6358000" />
-      <workItem from="1538992111678" duration="5862000" />
+      <workItem from="1538992111678" duration="8025000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1538652166865</created>
@@ -340,11 +349,25 @@
       <option name="project" value="LOCAL" />
       <updated>1538996687926</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Completed Course 2: Chapter 7: Handling the Object Id">
+      <created>1538998822416</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1538998822416</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Completed Course 2: Chapter 8: Making only one DB Connection with a Property">
+      <created>1538999895000</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1538999895000</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22375000" />
+    <option name="totallyTimeSpent" value="24538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="785" y="22" width="895" height="1028" extended-state="0" />
@@ -363,7 +386,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32905984" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -395,7 +418,9 @@
     <MESSAGE value="Completed Course 2: Chapter 4: Optional type-hinting &amp; Semantic Methods" />
     <MESSAGE value="Completed Course 2: Chapter 5: Objects are Passed by Reference" />
     <MESSAGE value="Completed Course 2: Chapter 6: Fetching Objects from the Database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Course 2: Chapter 6: Fetching Objects from the Database" />
+    <MESSAGE value="Completed Course 2: Chapter 7: Handling the Object Id" />
+    <MESSAGE value="Completed Course 2: Chapter 8: Making only one DB Connection with a Property" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Course 2: Chapter 8: Making only one DB Connection with a Property" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -413,13 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -458,17 +476,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/lib/ShipLoader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+        <state relative-caret-position="1500">
+          <caret line="100" column="1" lean-forward="true" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ShipLoader.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
         </state>
       </provider>
     </entry>
