@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13287ce0-54ef-493e-b325-c8a3e6f4460c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/Container.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battle.php" beforeDir="false" afterPath="$PROJECT_DIR$/battle.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/BattleManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Service/BattleManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/BattleResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Model/BattleResult.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Service/Container.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Ship.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Model/Ship.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ShipLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Service/ShipLoader.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,26 +29,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="3753" />
-          <entry key="txt" value="67" />
+          <entry key="php" value="4055" />
+          <entry key="txt" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="3753" />
-          <entry key="PLAIN_TEXT" value="67" />
+          <entry key="PHP" value="4055" />
+          <entry key="PLAIN_TEXT" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="1" />
-          <entry key="php" value="21" />
+          <entry key="php" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="PHP" value="21" />
+          <entry key="PHP" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -59,46 +61,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/battle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="450">
+              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Service/Container.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="829">
+              <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/Container.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/BattleManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -138,10 +131,10 @@
         <option value="$PROJECT_DIR$/init_db.php" />
         <option value="$PROJECT_DIR$/lib/Ship.php" />
         <option value="$PROJECT_DIR$/lib/ShipLoader.php" />
-        <option value="$PROJECT_DIR$/bootstrap.php" />
-        <option value="$PROJECT_DIR$/battle.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/lib/Container.php" />
+        <option value="$PROJECT_DIR$/battle.php" />
+        <option value="$PROJECT_DIR$/bootstrap.php" />
       </list>
     </option>
   </component>
@@ -171,6 +164,11 @@
               <item name="Learn_OO" type="b2602c69:ProjectViewProjectNode" />
               <item name="Learn_OO" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Learn_OO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn_OO" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -184,6 +182,10 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/Model" />
+      <recent name="$PROJECT_DIR$/lib/Service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -212,7 +214,7 @@
       <updated>1538651894691</updated>
       <workItem from="1538651896027" duration="10155000" />
       <workItem from="1538731749971" duration="6358000" />
-      <workItem from="1538992111678" duration="9374000" />
+      <workItem from="1538992111678" duration="10894000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1538652166865</created>
@@ -361,11 +363,25 @@
       <option name="project" value="LOCAL" />
       <updated>1539001550573</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Completed Course 2: Chapter 11: Service Container">
+      <created>1539007155733</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1539007155733</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Completed Course 2: Chapter 12: Container: Force Single Objects, Celebrate">
+      <created>1539008097005</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1539008097005</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25887000" />
+    <option name="totallyTimeSpent" value="27407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="785" y="22" width="895" height="1028" extended-state="0" />
@@ -420,7 +436,9 @@
     <MESSAGE value="Completed Course 2: Chapter 8: Making only one DB Connection with a Property" />
     <MESSAGE value="Completed Course 2: Chapter 9: OO Best Practice: Centralizing Configuration" />
     <MESSAGE value="Completed Course 2: Chapter 10: OO Best Practice: Centralizing the Connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Course 2: Chapter 10: OO Best Practice: Centralizing the Connection" />
+    <MESSAGE value="Completed Course 2: Chapter 11: Service Container" />
+    <MESSAGE value="Completed Course 2: Chapter 12: Container: Force Single Objects, Celebrate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Course 2: Chapter 12: Container: Force Single Objects, Celebrate" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -441,14 +459,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/BattleResult.php">
+    <entry file="file://$PROJECT_DIR$/lib/Model/BattleResult.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/BattleManager.php">
+    <entry file="file://$PROJECT_DIR$/lib/Service/BattleManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
@@ -462,45 +480,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Ship.php">
+    <entry file="file://$PROJECT_DIR$/lib/Model/Ship.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ShipLoader.php">
+    <entry file="file://$PROJECT_DIR$/lib/Service/ShipLoader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/battle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Container.php">
+    <entry file="file://$PROJECT_DIR$/battle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="450">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Service/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
         </state>
       </provider>
     </entry>
