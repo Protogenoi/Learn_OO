@@ -96,11 +96,11 @@ if (isset($_GET['error'])) {
                        name="ship1_quantity"
                        placeholder="Enter Number of Ships"/>
                 <select class="center-block form-control btn drp-dwn-width btn-default dropdown-toggle"
-                        name="ship1_name">
+                        name="ship1_id">
                     <option value="">Choose a Ship</option>
-                    <?php foreach ($ships as $key => $ship): ?>
+                    <?php foreach ($ships as $ship): ?>
                         <?php if ($ship->isFunctional()): ?>
-                            <option value="<?php echo $key; ?>"><?php echo $ship->getNameAndSpecs(); ?></option>
+                            <option value="<?php echo $ship->getID(); ?>"><?php echo $ship->getNameAndSpecs(); ?></option>
                         <?php endif; ?>
                     <?php endforeach; ?>
                 </select>
@@ -111,11 +111,11 @@ if (isset($_GET['error'])) {
                        name="ship2_quantity"
                        placeholder="Enter Number of Ships"/>
                 <select class="center-block form-control btn drp-dwn-width btn-default dropdown-toggle"
-                        name="ship2_name">
+                        name="ship2_id">
                     <option value="">Choose a Ship</option>
-                    <?php foreach ($ships as $key => $ship): ?>
+                    <?php foreach ($ships as $ship): ?>
                         <?php if ($ship->isFunctional()): ?>
-                            <option value="<?php echo $key; ?>"><?php echo $ship->getNameAndSpecs(); ?></option>
+                            <option value="<?php echo $ship->getID(); ?>"><?php echo $ship->getNameAndSpecs(); ?></option>
                         <?php endif; ?>
                     <?php endforeach; ?>
                 </select>
