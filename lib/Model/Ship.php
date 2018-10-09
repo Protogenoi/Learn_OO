@@ -5,7 +5,7 @@ class Ship
 
     private $id;
 
-    private $name;
+    protected $name;
 
     private $weaponPower = 0;
 
