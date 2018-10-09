@@ -1,6 +1,6 @@
 <?php
 
-class JsonFileShipStorage
+class JsonFileShipStorage extends AbstractShipStorage
 {
     private $filename;
 
@@ -9,7 +9,7 @@ class JsonFileShipStorage
         $this->filename = $jsonFilePath;
     }
 
-    public function fetchAllShipsData()
+    public function fetchAllShipData()
     {
         $jsonContents = file_get_contents($this->filename);
 
