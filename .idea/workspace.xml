@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="13287ce0-54ef-493e-b325-c8a3e6f4460c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Model/RebelShip.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Model/RebelShip.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Model/Ship.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Model/Ship.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,14 +23,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="4439" />
-          <entry key="txt" value="72" />
+          <entry key="php" value="4529" />
+          <entry key="txt" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="4439" />
-          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="PHP" value="4529" />
+          <entry key="PLAIN_TEXT" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,20 +54,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/Model/Ship.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="769">
+              <caret line="139" column="5" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/Model/RebelShip.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+            <state relative-caret-position="600">
+              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -234,7 +232,7 @@
       <updated>1538651894691</updated>
       <workItem from="1538651896027" duration="10155000" />
       <workItem from="1538731749971" duration="6358000" />
-      <workItem from="1538992111678" duration="15183000" />
+      <workItem from="1538992111678" duration="15691000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1538652166865</created>
@@ -418,11 +416,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539080676074</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Completed Course 3: Chapter 3: Protected Visibility">
+      <created>1539081949470</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1539081949470</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31696000" />
+    <option name="totallyTimeSpent" value="32204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="785" y="22" width="895" height="1028" extended-state="0" />
@@ -456,7 +461,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Course 1: Chapter 2: A Class and an Object" />
     <MESSAGE value="Completed Course 1: Chapter 3: Class Methods" />
     <MESSAGE value="Completed Course 1: Chapter 4: Methods that Do work" />
     <MESSAGE value="Completed Course 1: Chapter 5: Multiple Objects" />
@@ -481,7 +485,8 @@
     <MESSAGE value="Completed Course 2: Chapter 13: Container to the Rescue" />
     <MESSAGE value="Completed Course 3: Chapter 1: Extends" />
     <MESSAGE value="Completed Course 3: Chapter 2: Override" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Course 3: Chapter 2: Override" />
+    <MESSAGE value="Completed Course 3: Chapter 3: Protected Visibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Course 3: Chapter 3: Protected Visibility" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -570,17 +575,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Model/RebelShip.php">
+    <entry file="file://$PROJECT_DIR$/lib/Model/Ship.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        <state relative-caret-position="769">
+          <caret line="139" column="5" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Model/Ship.php">
+    <entry file="file://$PROJECT_DIR$/lib/Model/RebelShip.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="600">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
         </state>
       </provider>
     </entry>
