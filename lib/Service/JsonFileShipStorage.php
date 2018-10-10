@@ -9,7 +9,7 @@ class JsonFileShipStorage implements ShipStorageInterface
         $this->filename = $jsonFilePath;
     }
 
-    public function fetchAllShipData()
+    public function fetchAllShipsData()
     {
         $jsonContents = file_get_contents($this->filename);
 

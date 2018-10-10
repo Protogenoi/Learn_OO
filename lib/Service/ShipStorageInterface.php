@@ -9,7 +9,7 @@ interface ShipStorageInterface
      * @return array
      */
 
-    public function fetchAllShipData();
+    public function fetchAllShipsData();
 
     /**
      * @param integer $id

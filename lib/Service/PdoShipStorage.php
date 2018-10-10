@@ -10,7 +10,7 @@ class PdoShipStorage implements ShipStorageInterface
         $this->pdo = $pdo;
     }
 
-    public function fetchAllShipData()
+    public function fetchAllShipsData()
     {
 
         $pdo = $this->pdo;

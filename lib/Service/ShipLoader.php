@@ -19,7 +19,7 @@ class ShipLoader
     public function getShips()
     {
 
-        $shipsData = $this->shipStorage->fetchAllShipData();
+        $shipsData = $this->shipStorage->fetchAllShipsData();
 
         $ships = array();
 
