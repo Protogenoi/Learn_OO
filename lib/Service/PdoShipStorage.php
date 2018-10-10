@@ -1,5 +1,7 @@
 <?php
 
+namespace Service;
+
 class PdoShipStorage implements ShipStorageInterface
 {
 
@@ -17,6 +19,7 @@ class PdoShipStorage implements ShipStorageInterface
         $statement = $pdo->prepare('SELECT * FROM ship');
         $statement->execute();
         $shipsArray = $statement->fetchAll(PDO::FETCH_ASSOC);
+
         return $shipsArray;
 
     }

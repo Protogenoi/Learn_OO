@@ -1,5 +1,7 @@
 <?php
 
+namespace Model;
+
 class RebelShip extends AbstractShip
 {
 
@@ -29,7 +31,7 @@ class RebelShip extends AbstractShip
 
         return $val;
 
-        }
+    }
 
     public function getJediFactor()
     {
