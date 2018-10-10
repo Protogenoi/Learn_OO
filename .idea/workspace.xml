@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13287ce0-54ef-493e-b325-c8a3e6f4460c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/Service/ShipStorageInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Service/AbstractShipStorage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Service/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Service/Container.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Service/JsonFileShipStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Service/JsonFileShipStorage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Service/PdoShipStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Service/PdoShipStorage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Service/ShipLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Service/ShipLoader.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,26 +23,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="5572" />
-          <entry key="txt" value="79" />
+          <entry key="php" value="5921" />
+          <entry key="txt" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="5572" />
-          <entry key="PLAIN_TEXT" value="79" />
+          <entry key="PHP" value="5921" />
+          <entry key="PLAIN_TEXT" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="6" />
-          <entry key="php" value="49" />
+          <entry key="php" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="6" />
-          <entry key="PHP" value="49" />
+          <entry key="PHP" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -62,55 +55,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Service/JsonFileShipStorage.php">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="1965">
+              <caret line="132" column="76" selection-start-line="132" selection-start-column="76" selection-end-line="132" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Service/PdoShipStorage.php">
+        <entry file="file://$PROJECT_DIR$/battle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Service/ShipStorageInterface.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="495">
+              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/Service/ShipLoader.php">
+        <entry file="file://$PROJECT_DIR$/lib/Service/BattleManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Service/Container.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+            <state relative-caret-position="-175">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -153,24 +119,24 @@
         <option value="$PROJECT_DIR$/lib/Ship.php" />
         <option value="$PROJECT_DIR$/lib/ShipLoader.php" />
         <option value="$PROJECT_DIR$/lib/Container.php" />
-        <option value="$PROJECT_DIR$/battle.php" />
         <option value="$USER_HOME$/Downloads/code-oo-ep3/start/lib/Service/ShipLoader.php" />
         <option value="$PROJECT_DIR$/lib/Model/RebelShip.php" />
         <option value="$PROJECT_DIR$/lib/Model/Ship.php" />
-        <option value="$PROJECT_DIR$/lib/Service/BattleManager.php" />
         <option value="$PROJECT_DIR$/lib/Model/BattleResult.php" />
         <option value="$PROJECT_DIR$/lib/Model/AbstractShip.php" />
         <option value="$PROJECT_DIR$/lib/Model/BrokenShip.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/resources/JsonFileShipStorage.php" />
         <option value="$PROJECT_DIR$/resources/ships.json" />
         <option value="$PROJECT_DIR$/bootstrap.php" />
         <option value="$PROJECT_DIR$/lib/Service/AbstractShipStorage.php" />
-        <option value="$PROJECT_DIR$/lib/Service/JsonFileShipStorage.php" />
-        <option value="$PROJECT_DIR$/lib/Service/ShipLoader.php" />
         <option value="$PROJECT_DIR$/lib/Service/Container.php" />
-        <option value="$PROJECT_DIR$/lib/Service/PdoShipStorage.php" />
+        <option value="$PROJECT_DIR$/battle.php" />
         <option value="$PROJECT_DIR$/lib/Service/ShipStorageInterface.php" />
+        <option value="$PROJECT_DIR$/lib/Service/PdoShipStorage.php" />
+        <option value="$PROJECT_DIR$/lib/Service/ShipLoader.php" />
+        <option value="$PROJECT_DIR$/lib/Service/JsonFileShipStorage.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/lib/Service/BattleManager.php" />
       </list>
     </option>
   </component>
@@ -262,7 +228,7 @@
       <updated>1538651894691</updated>
       <workItem from="1538651896027" duration="10155000" />
       <workItem from="1538731749971" duration="6358000" />
-      <workItem from="1538992111678" duration="25567000" />
+      <workItem from="1538992111678" duration="30300000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1538652166865</created>
@@ -495,11 +461,25 @@
       <option name="project" value="LOCAL" />
       <updated>1539117392031</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Completed Course 3: Chapter 10: Interfaces">
+      <created>1539118234764</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1539118234764</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Completed Course 4: Chapter 1: The Wonder of Class Constants (fixed previous course function names).">
+      <created>1539172270563</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1539172270563</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42080000" />
+    <option name="totallyTimeSpent" value="46813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="785" y="22" width="895" height="1028" extended-state="0" />
@@ -533,8 +513,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Course 1: Chapter 9: Private Access" />
-    <MESSAGE value="Completed Course 1: Chapter 10: Type Hinting?!" />
     <MESSAGE value="Completed Course 1: Chapter 11: The Constructor!" />
     <MESSAGE value="Completed Course 2: Chapter 1: Service Classes" />
     <MESSAGE value="Completed Course 2: Chapter 2: An Army of Service Classes" />
@@ -558,7 +536,9 @@
     <MESSAGE value="Completed Course 3: Chapter 7: Broken Ship" />
     <MESSAGE value="Completed Course 3: Chapter 8: Abstracting a Class into 2 Smaller Pieces" />
     <MESSAGE value="Completed Course 3: Chapter 9: AbstractShipStorage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Course 3: Chapter 9: AbstractShipStorage" />
+    <MESSAGE value="Completed Course 3: Chapter 10: Interfaces" />
+    <MESSAGE value="Completed Course 4: Chapter 1: The Wonder of Class Constants (fixed previous course function names)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Course 4: Chapter 1: The Wonder of Class Constants (fixed previous course function names)." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -613,24 +593,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Service/BattleManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="65" column="65" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Model/RebelShip.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/battle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -669,24 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Service/JsonFileShipStorage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -697,24 +649,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Service/PdoShipStorage.php">
+    <entry file="file://$PROJECT_DIR$/lib/Service/ShipStorageInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        <state relative-caret-position="195">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Service/ShipStorageInterface.php">
+    <entry file="file://$PROJECT_DIR$/lib/Service/PdoShipStorage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="86">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/Service/ShipLoader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        <state relative-caret-position="203">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Service/JsonFileShipStorage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1965">
+          <caret line="132" column="76" selection-start-line="132" selection-start-column="76" selection-end-line="132" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Service/BattleManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
