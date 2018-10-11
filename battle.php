@@ -67,10 +67,10 @@ $battleResult = $battleManager->battle($ship1, $ship1Quantity, $ship2,
         <h2 class="text-center">The Matchup:</h2>
         <p class="text-center">
             <br>
-            <?php echo $ship1Quantity; ?> <?php echo $ship1->getName(); ?><?php echo $ship1Quantity
+            <?php echo $ship1Quantity; ?> <?php echo $ship1; ?><?php echo $ship1Quantity
             > 1 ? 's' : ''; ?>
             VS.
-            <?php echo $ship2Quantity; ?> <?php echo $ship2->getName(); ?><?php echo $ship2Quantity
+            <?php echo $ship2Quantity; ?> <?php echo $ship2; ?><?php echo $ship2Quantity
             > 1 ? 's' : ''; ?>
         </p>
     </div>
