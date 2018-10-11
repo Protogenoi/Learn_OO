@@ -23,7 +23,7 @@ class Container
     }
 
     /**
-     * @return PDO
+     * @return \PDO
      */
 
     public function getPDO()
@@ -31,13 +31,14 @@ class Container
 
         if ($this->pdo === null) {
 
-            $this->pdo = new PDO(
+            $this->pdo = new \PDO(
                 $this->configuration['db_dsn'],
                 $this->configuration['db_user'],
                 $this->configuration['db_pass']
             );
 
-            $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $this->pdo->setAttribute(\PDO::ATTR_ERRMODE,
+                \PDO::ERRMODE_EXCEPTION);
 
         }
 
@@ -68,10 +69,10 @@ class Container
     public function getShipStorage()
     {
         if ($this->shipStorage === null) {
-            // $this->shipStorage = new PdoShipStorage($this->getPDO());
+            $this->shipStorage = new PdoShipStorage($this->getPDO());
 
-            $this->shipStorage = new JsonFileShipStorage(__DIR__
-                . '/../../resources/ships.json');
+            // $this->shipStorage = new JsonFileShipStorage(__DIR__
+            //    . '/../../resources/ships.json');
 
         }
 
