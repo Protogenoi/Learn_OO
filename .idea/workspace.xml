@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13287ce0-54ef-493e-b325-c8a3e6f4460c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/Model/ShipCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Model/BountyHunterShip.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Model/SettableJediFactorTrait.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Service/ShipLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Service/ShipLoader.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,32 +30,33 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="18" />
-          <entry key="php" value="7429" />
-          <entry key="txt" value="136" />
+          <entry key="php" value="7661" />
+          <entry key="txt" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="18" />
-          <entry key="PHP" value="7429" />
-          <entry key="PLAIN_TEXT" value="136" />
+          <entry key="PHP" value="7661" />
+          <entry key="PLAIN_TEXT" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="7" />
-          <entry key="php" value="85" />
+          <entry key="php" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="7" />
-          <entry key="PHP" value="85" />
+          <entry key="PHP" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="10" />
+          <entry key="PHP Class.type" value="11" />
+          <entry key="PHP Trait.type" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions">
@@ -68,6 +69,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Model/Ship.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/Model/SettableJediFactorTrait.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/Model/BattleResult.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,32 +108,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/Service/ShipLoader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+            <state relative-caret-position="644">
+              <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
               <folding>
-                <element signature="e#27#47#0#PHP" expanded="true" />
+                <element signature="e#27#54#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/Model/ShipCollection.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+        <entry file="file://$PROJECT_DIR$/lib/Model/BountyHunterShip.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-              <folding>
-                <element signature="e#43#69#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="405">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -174,9 +181,11 @@
         <option value="$PROJECT_DIR$/lib/Model/AbstractShip.php" />
         <option value="$PROJECT_DIR$/battle.php" />
         <option value="$PROJECT_DIR$/lib/Model/BattleResult.php" />
-        <option value="$PROJECT_DIR$/lib/Service/ShipLoader.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/lib/Model/ShipCollection.php" />
+        <option value="$PROJECT_DIR$/lib/Model/BountyHunterShip.php" />
+        <option value="$PROJECT_DIR$/lib/Service/ShipLoader.php" />
+        <option value="$PROJECT_DIR$/lib/Model/SettableJediFactorTrait.php" />
       </list>
     </option>
   </component>
@@ -271,7 +280,7 @@
       <updated>1538651894691</updated>
       <workItem from="1538651896027" duration="10155000" />
       <workItem from="1538731749971" duration="6358000" />
-      <workItem from="1538992111678" duration="45757000" />
+      <workItem from="1538992111678" duration="47652000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1538652166865</created>
@@ -595,11 +604,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539276243102</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Completed Course 4: Chapter 13: IteratorAggregate: Loop over an Object!?">
+      <created>1539340877806</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1539340877806</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62270000" />
+    <option name="totallyTimeSpent" value="64165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="794" y="22" width="886" height="1028" extended-state="0" />
@@ -633,7 +649,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Course 2: Chapter 11: Service Container" />
     <MESSAGE value="Completed Course 2: Chapter 12: Container: Force Single Objects, Celebrate" />
     <MESSAGE value="Completed Course 2: Chapter 13: Container to the Rescue" />
     <MESSAGE value="Completed Course 3: Chapter 1: Extends" />
@@ -658,7 +673,8 @@
     <MESSAGE value="Completed Course 4: Chapter 10: Different Exception Classes" />
     <MESSAGE value="Completed Course 4: Chapter 11: Magic Methods: __toString() __get, __set()" />
     <MESSAGE value="Completed Course 4: Chapter 12: ArrayAccess: Treat your Object like an Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Course 4: Chapter 12: ArrayAccess: Treat your Object like an Array" />
+    <MESSAGE value="Completed Course 4: Chapter 13: IteratorAggregate: Loop over an Object!?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Course 4: Chapter 13: IteratorAggregate: Loop over an Object!?" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -721,13 +737,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/Model/BrokenShip.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Model/Ship.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
@@ -814,16 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Service/ShipLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-          <folding>
-            <element signature="e#27#47#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -843,8 +842,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/Model/ShipCollection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        <state relative-caret-position="574">
+          <caret line="44" selection-start-line="44" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Model/BountyHunterShip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Service/ShipLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+          <folding>
+            <element signature="e#27#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Model/Ship.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Model/SettableJediFactorTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
